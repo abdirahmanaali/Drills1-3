@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.section-one{
+    border: 5px solid black;
+    padding: 10px;
+    align-items: flex-end;
+    box-sizing: border-box;
+    display: flex-start;
+}
+.violet-seq{
+    height: 75px;
+    width: 25px;
+    background-color: blueviolet;
+}
+.green-squre{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    background-color: skyblue;
+}
+.section-two{
+    border: 5px dotted black;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 25px;
+    display: block;
+}
+.dotted-line{
+    box-shadow:black;
+    background-color: burlywood;
+    height: 100px;
+    height: 100px;
+    display: block;
+}
+.section-three{
+    background-color: white;
+    margin: auto;
+    border: 1px solid grey;
+    width: 50%;
+    box-sizing: border-box;
+    display: block;
+    padding: 100px;
+}
+h1{
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 60px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
